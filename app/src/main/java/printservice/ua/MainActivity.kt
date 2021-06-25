@@ -2,6 +2,7 @@ package printservice.ua
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.KeyEvent
 import android.webkit.WebView
 import com.google.android.gms.ads.AdRequest
 import com.google.android.gms.ads.AdView
@@ -36,5 +37,12 @@ class MainActivity : AppCompatActivity() {
 
         webView?.loadUrl("https://print-service.ua/ru/")
 
+    }
+    override fun onKeyDown(keyCode: Int, event: KeyEvent?): Boolean {
+        if (keyCode == KeyEvent.KEYCODE_BACK && this.webView?.canGoBack() == true) {
+            this.webView?.goBack()
+            return true
+        }
+        return super.onKeyDown(keyCode, event)
     }
 }
