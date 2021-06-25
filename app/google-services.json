@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "982069303268",
+    "project_id": "print-service-ceb57",
+    "storage_bucket": "print-service-ceb57.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:982069303268:android:1fa512b44a73962d7e59f1",
+        "android_client_info": {
+          "package_name": "printservice.ua"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "982069303268-httuvlnhha59ll3feb7acge6gdpaqu8p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCOOypAamXMzFumETJI6Or2Z-KyRiLMEBU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "982069303268-httuvlnhha59ll3feb7acge6gdpaqu8p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
